@@ -6,13 +6,13 @@ import Intro from "./components/Herosection";
 import Skills from "./components/Skills";
 import Education from './components/Education';
 import { BrowserRouter as Router } from 'react-router-dom';
-
+import Experince from './components/Experience';
+import Project from './components/Projects';
 
 // tag making
 const Body = styled.div`
 background-color: ${({theme}) => theme.bg};
 width:100%;
-height:100%;
 overflow-x: hidden;
 `;
 
@@ -27,9 +27,8 @@ linear-gradient(
   rgba(0, 70, 209, 0) 50%,
   rgba(0, 70, 209, 0.15) 100%,
 );
-background-color: purple;
 width: 100%;
-clip-path:polygon(0 0, 100% 0, 100% 100%, 0 calc(100% 5vw));
+clip-path:polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
 function App() {
@@ -41,6 +40,10 @@ function App() {
           <Intro/>
           <Wrapper>
             <Skills/>
+            <Experince/>
+          </Wrapper>
+           <Project/>
+          <Wrapper>
             <Education/>
           </Wrapper>
         </Body>
