@@ -1,5 +1,6 @@
 import { Avatar } from '@mui/material';
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Card = styled.div`
@@ -100,8 +101,9 @@ const Members = styled.div`
 //     border: 3px solid ${({ theme }) => theme.card};
 // `;
 const ProjectCard = ({project}) => {
+  
   return (
-    <Card>
+    <Card onClick={()=>window.open(project.github)} >
       <Image src={project.image}/>
       <Tags>
         {project.tags?.map((tag)=>(<Tag key={tag}>{tag}</Tag>))}
