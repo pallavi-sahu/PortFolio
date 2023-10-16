@@ -1,6 +1,5 @@
 import { Avatar } from '@mui/material';
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Card = styled.div`
@@ -106,19 +105,19 @@ const ProjectCard = ({project}) => {
     <Card onClick={()=>window.open(project.github)} >
       <Image src={project.image}/>
       <Tags>
-        {project.tags?.map((tag)=>(<Tag key={tag}>{tag}</Tag>))}
+        {project.tags?.map((tag, index)=>(<Tag key={tag}>{tag}</Tag>))}
       </Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
         <Description>{project.description}</Description>
       </Details>
-      <Members>
+      {/* <Members>
         {project.member?.map((member)=>(<Avatar src={member.img}/>
         ))}
-      </Members>
+      </Members> */}
     </Card>
   )
 }
 
-export default ProjectCard
+export default ProjectCard;
