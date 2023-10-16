@@ -105,7 +105,7 @@ export const CardContainer = styled.div`
 function Projects() {
     const [toggle, settoggle] = useState('all');
   return (
-    <Container id="project">
+    <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>I have worked on a wide range of projects. From web apps to machine learning projects. Here are some of my projects.</Desc>

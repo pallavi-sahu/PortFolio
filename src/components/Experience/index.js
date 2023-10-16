@@ -1,11 +1,15 @@
+
 import React from 'react'
-import styled from 'styled-components';
-import {experience} from '../../Data/constants'
+import styled from 'styled-components'
 import Timeline from '@mui/lab/Timeline';
-import TimelineItem from '@mui/lab/TimelineItem';import {TimelineSeparator} from '@mui/lab';
-import { TimelineConnector, TimelineDot } from '@mui/lab';
+import TimelineItem from '@mui/lab/TimelineItem';
+import TimelineSeparator from '@mui/lab/TimelineSeparator';
+import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
+import TimelineDot from '@mui/lab/TimelineDot';
 import ExperienceCard from '../Cards/ExperienceCard';
+import { experience } from '../../Data/constants';
+
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -18,6 +22,22 @@ const Container = styled.div`
         padding: 0px;
     }
 `;
+
+const Wrapper = styled.div`
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 80px 0;
+    gap: 12px;
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+`;
+
 const Title = styled.div`
 font-size: 42px;
 text-align: center;
@@ -41,20 +61,6 @@ const Desc = styled.div`
     }
 `;
 
-const Wrapper = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1350px;
-    padding: 80px 0;
-    gap: 12px;
-    @media (max-width: 960px) {
-        flex-direction: column;
-    }
-`;
 const TimelineSection = styled.div`
     width: 100%;
     max-width: 1000px;
@@ -66,32 +72,35 @@ const TimelineSection = styled.div`
     gap: 12px;
 `;
 
-function Experince() {
-  return (
-    <Container>
-        <Wrapper>
-            <Title>Experience</Title>
-            <Desc>Here are some of my projects</Desc>
 
-            <TimelineSection>
-                <Timeline>
-                    {experience.map((experi, index)=>(
-                        <TimelineItem>
-                            <TimelineSeparator>
-                                <TimelineDot varient="outlined" color="secondary"/>
-                                {index!==experience.length - 1 && <TimelineConnector/>}
-                            </TimelineSeparator>
-                            <TimelineContent $x={{py:"12px", px:"2"}}>
-                                <ExperienceCard experi = {experience}/>
-                            </TimelineContent>
-                        </TimelineItem>
-                    ))}
-                </Timeline>
-            </TimelineSection>
-        </Wrapper>
-      
-    </Container>
-  )
+const Experience = () =>{
+    return (
+        <Container id="experience">
+            <Wrapper>
+                <Title>Experience</Title>
+                <Desc>
+                    My work experience as a software engineer and working on different companies and projects.
+                </Desc>
+                <TimelineSection>
+                    {/* <Timeline>
+                        {experience.map((experience,index) => (
+                            <TimelineItem>
+                                <TimelineSeparator>
+                                    <TimelineDot variant="outlined" color="secondary" />
+                                    {index !== experience.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                </TimelineSeparator>
+                                <TimelineContent sx={{ py: '12px', px: 2 }}>
+                                    <ExperienceCard experience={experience}/>
+                                </TimelineContent>
+                            </TimelineItem>
+                        ))}
+                    </Timeline> */}
+                    <ExperienceCard experience={experience}/>
+
+                </TimelineSection>
+            </Wrapper>
+        </Container>
+    )
 }
 
-export default Experince;
+export default Experience
