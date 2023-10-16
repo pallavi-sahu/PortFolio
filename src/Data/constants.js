@@ -1,4 +1,4 @@
-const Bio = {
+export const Bio = {
     name: "Pallavi Sahu",
     roles: [
         "Full Stack Developer",
@@ -17,19 +17,19 @@ export const Skills = [
         skills: [
             {
                 name: "React Js",
-                image:"",
+                image:"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
             },
             {
                 name: "Redux",
-                image: "",
+                image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
             },
             {
                 name: "JavaScript",
-                image: "",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
             },
             {
                 name: "HTML",
-                image: "",
+                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
             }
         ],
     },
@@ -39,23 +39,23 @@ export const Skills = [
         skills: [
             {
                 name: "Git",
-                image:"",
+                image:"https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
             },
             {
                 name: "Github",
-                image: "",
+                image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
             },
             {
                 name: "Postman",
-                image: "",
+                image: "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
             },
             {
                 name: "VScode",
-                image: "",
+                image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
             },
             {
                 name: "Linux",
-                image: "",
+                image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
             }
 
         ], 
@@ -102,7 +102,7 @@ export const education = [
         date: "Apr 2018 - Apr 2020",
         grade: "85.4%",
         desc: "I completed my class 12 high school education at Prayas Residential School, Raipur.",
-        degree: "XII",
+        degree: "Senior Secondary",
       },
 ]
 
@@ -113,10 +113,10 @@ export const projects = [
         date: "Jun 2023 - Jul 2023",
         description:
           "a music player website providing a user-friendly interface for users to play, and manage the songs",
-        image: "",
+        image: "images/Screenshot from 2022-12-21 16-40-45.png",
         tags: [
           "React",
-          "Javascript",
+          "Javascript", 
           "CSS",
         ],
         category: "web app",
