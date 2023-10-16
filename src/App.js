@@ -1,53 +1,60 @@
-import './App.css';
-import styled, {ThemeProvider} from 'styled-components';
-import { darktheme } from './utils/Themes';
+import "./App.css";
+import styled, { ThemeProvider } from "styled-components";
+import { darktheme } from "./utils/Themes";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Herosection";
 import Skills from "./components/Skills";
-import Education from './components/Education';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Experince from './components/Experience';
-import Project from './components/Projects';
-
+import Education from "./components/Education";
+import { BrowserRouter as Router } from "react-router-dom";
+import Experince from "./components/Experience";
+import Project from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 // tag making
 const Body = styled.div`
-background-color: ${({theme}) => theme.bg};
-width:100%;
-overflow-x: hidden;
+  background-color: ${({ theme }) => theme.bg};
+  width: 100%;
+  overflow-x: hidden;
 `;
 
 const Wrapper = styled.div`
-background: linear-gradient(
-  38.73deg,
-  rgba(204, 0, 187, 0.15) 0%,
-  rgba(201, 32, 184, 0) 50%,
-),
-linear-gradient(
-  141.27deg,
-  rgba(0, 70, 209, 0) 50%,
-  rgba(0, 70, 209, 0.15) 100%,
-);
-width: 100%;
-clip-path:polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+  background: linear-gradient(
+      38.73deg,
+      rgba(204, 0, 187, 0.15) 0%,
+      rgba(201, 32, 184, 0) 50%
+    ),
+    linear-gradient(
+      141.27deg,
+      rgba(0, 70, 209, 0) 50%,
+      rgba(0, 70, 209, 0.15) 100%
+    );
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;
 
 function App() {
   return (
     <ThemeProvider theme={darktheme}>
-        <Router>
-        <Navbar/>
+      <Router>
+        <Navbar />
+
         <Body>
-          <Intro/>
+          <Intro />
           <Wrapper>
-            <Skills/>
-            <Experince/>
+            <Skills />
+            <Experince />
           </Wrapper>
-           <Project/>
+          <Project />
           <Wrapper>
-            <Education/>
+            <Education />
+          </Wrapper>
+          <Wrapper>
+          <Contact/>
           </Wrapper>
         </Body>
-        </Router>
+
+       <Footer/> 
+      </Router>
     </ThemeProvider>
   );
 }
