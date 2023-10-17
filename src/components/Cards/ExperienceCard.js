@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Document = styled.img`
-    display: none;
+    display:none;
     height: 70px;
     width: fit-content;
-    background-color: #000;
+    background-color: #0000;
     border-radius: 10px;
     &:hover{
         cursor: pointer;
@@ -173,7 +173,7 @@ const ExperienceCard = ({experience}) => {
             </Description>
             {experience.doc &&
                 <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
+                    <Document src='https://bobbyhadz.com/images/blog/react-usestate-dynamic-key/thumbnail.webp'/>
                 </a>
             }
         </Card>
