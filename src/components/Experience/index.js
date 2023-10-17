@@ -73,7 +73,7 @@ const TimelineSection = styled.div`
 `;
 
 
-const Experience = () =>{
+function Experience (){
     return (
         <Container id="experience">
             <Wrapper>
@@ -82,7 +82,7 @@ const Experience = () =>{
                     My work experience as a software engineer and working on different companies and projects.
                 </Desc>
                 <TimelineSection>
-                    {/* <Timeline>
+                    <Timeline>
                         {experience.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
@@ -94,8 +94,7 @@ const Experience = () =>{
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
-                    </Timeline> */}
-                    <ExperienceCard experience={experience}/>
+                    </Timeline>
 
                 </TimelineSection>
             </Wrapper>
