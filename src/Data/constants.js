@@ -65,7 +65,7 @@ export const Skills = [
 export const experience = [
     {
         id: 0,
-        img: "https://bobbyhadz.com/images/blog/react-usestate-dynamic-key/thumbnail.webp",
+        img: "https://media.licdn.com/dms/image/C4D0BAQHEi6h8J_64iQ/company-logo_200_200/0/1676082834748?e=2147483647&v=beta&t=EW8LqI4mRfL3LFeluD1m6SnpnnbOnGOw9hs1v7kOsnU",
         role: "Software Developer",
         company: "Scrollit",
         date: "June 2023 - July 2023",
