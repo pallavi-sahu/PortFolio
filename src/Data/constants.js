@@ -113,7 +113,7 @@ export const projects = [
         date: "Jun 2023 - Jul 2023",
         description:
           "a music player website providing a user-friendly interface for users to play, and manage the songs",
-        image: "images/Screenshot from 2022-12-21 16-40-45.png",
+        image: "https://raw.githubusercontent.com/pallavi-sahu/MusicPage/main/images/Screenshot%20from%202022-12-21%2016-43-06.png",
         tags: [
           "React",
           "Javascript", 
@@ -129,7 +129,7 @@ export const projects = [
         date: "Apr 2023 - May 2023",
         description:
           "An innovative solution for eliminating middlemen from the agricultural market by enabling farmers with feature phones to sell their produce on a unified platform",
-        image:"",
+        image:"https://raw.githubusercontent.com/pallavi-sahu/Agventure/main/Website.jpeg",
         tags: ["React Js", "Firebase", "Node Js", "Express Js", "Redux",],
         category: "web app",
         github: "https://github.com/pallavi-sahu/Agventure",
@@ -156,7 +156,7 @@ export const projects = [
         date: "Oct 2022 - Present",
         description:
           "Designed and implemented the user interface (UI) of the application using ReactJS, ensuring a responsive and intuitive user experience.",
-        image:"",
+        image:"https://img-b.udemycdn.com/course/750x422/1934994_9145_2.jpg",
         tags: [
           "React Js",
           "FireBase",
@@ -174,8 +174,7 @@ export const projects = [
         title: "Insect Detection",
         date: "Jan 2021",
         description:"It is an IoT and Deep Learning-based project to detect insects in stored grains.",
-        image:
-          "",
+        image:"https://raw.githubusercontent.com/pallavi-sahu/Insect-Detection/main/insect%20detection.png",
         tags: ["Python", "Keras", "TensorFlow", "FastApi", "Pickle"],
         category: "machine learning",
         github: "https://github.com/pallavi-sahu/Insect-Detection",
