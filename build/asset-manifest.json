@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15bc6ce5.css",
+    "main.js": "/static/js/main.3acd94e6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Pallavi.jpg": "/static/media/Pallavi.4fa537f0311df02e54e6.jpg",
+    "index.html": "/index.html",
+    "main.15bc6ce5.css.map": "/static/css/main.15bc6ce5.css.map",
+    "main.3acd94e6.js.map": "/static/js/main.3acd94e6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15bc6ce5.css",
+    "static/js/main.3acd94e6.js"
+  ]
+}
