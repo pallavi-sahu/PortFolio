@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import Bio from '../../Data/constants';
 import Typewriter from 'typewriter-effect'; 
 import Pallavi from '../../image/Pallavi.jpg';
-import Pallavi1 from '../../image/Pallavi1.JPG';
 import HeroBgAnimation from '../../components/HeroBgAnimation';
 
 export const HeroContainer = styled.div`
