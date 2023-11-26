@@ -168,6 +168,21 @@ export const projects = [
         github: "https://github.com/pallavi-sahu/WhatsApp-Clone",
         webapp: "",
       },
+      {
+        id: 1,
+        title: "Youtube",
+        date: "Oct 2022 - Present",
+        description:
+          "Designed and implemented the user interface (UI) of the Youtube application using ReactJS and used RapidAPI to the data.",
+        image:"https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=826",
+        tags: [
+          "React Js",
+          "RapidAPI",
+        ],
+        category: "web app",
+        github: "https://github.com/pallavi-sahu/Youtube",
+        webapp: "",
+      },
 
       {
         id: 8,
