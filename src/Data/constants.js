@@ -12,6 +12,31 @@ export const Bio = {
 };
 
 export const Skills = [
+  {
+    title: "Languages",
+    skills: [
+        {
+            name: "C",
+            image:"https://www.codewithfaraz.com/img/what%20is%20c,%20and%20why%20is%20it%20important%20for%20the%20development%20of%20computer%20systems.png",
+        },
+        {
+            name: "C++",
+            image: "https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png"
+        },
+        {
+            name: "Python",
+            image: "https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg",
+        },
+        {
+            name: "JavaScript",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+            name: "SQL",
+            image: "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*RK50G3R8xeRtANWAkJE6Mw.png",
+        }
+    ],
+},
     {
         title: "Frontend",
         skills: [
