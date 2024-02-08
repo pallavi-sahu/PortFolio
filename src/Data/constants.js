@@ -6,7 +6,7 @@ export const Bio = {
     ],
     description: "I'm Pallavi Sahu, a passionate Computer Science student focusing on IoT, Deep Learning, and web development. I've worked on exciting projects like insect detection, emotion recognition, and e-commerce for farmers. As a proven leader in the Social Media and PR Team of Scientific Tech Showcase events and NSS, I'm eager to keep learning and growing. My passion and skills make me a suitable candidate for any opportunities that come my way.",
     github: "https://github.com/pallavi-sahu",
-    resume: "https://drive.google.com/file/d/1HU-JbRxddLcwX6efMi6h3o0U16KV53a_/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/136bKcu6dVnpy33hCNs3Xa_irORlFdgoc/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/pallavi-sahu-9b6069202/",
     insta: "https://www.instagram.com/sahu_pallavi_06",
 };
@@ -58,13 +58,29 @@ export const Skills = [
             }
         ],
     },
-
+    {
+      title: "Backend",
+      skills: [
+          {
+              name: "Node Js",
+              image:"https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_node_icon_130301.png",
+          },
+          {
+              name: "Express Js",
+              image: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+          },
+          {
+            name: "Firebase",
+            image: "https://cdn.icon-icons.com/icons2/691/PNG/512/google_firebase_icon-icons.com_61475.png"
+          }
+      ],
+  },
     {
         title: "Others",
         skills: [
             {
                 name: "Git",
-                image:"https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+                image:"https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_git_icon_130581.png",
             },
             {
                 name: "Github",
@@ -72,7 +88,7 @@ export const Skills = [
             },
             {
                 name: "Postman",
-                image: "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+                image: "https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_macos_bigsur_icon_189815.png",
             },
             {
                 name: "VScode",
@@ -195,11 +211,11 @@ export const projects = [
       },
       {
         id: 1,
-        title: "Youtube",
+        title: "ClipStream",
         date: "Oct 2022 - Present",
         description:
           "Designed and implemented the user interface (UI) of the Youtube application using ReactJS and used RapidAPI to the data.",
-        image:"https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?w=826",
+        image:"https://cdn.icon-icons.com/icons2/272/PNG/512/Play_Music_30003.png",
         tags: [
           "React Js",
           "RapidAPI",
