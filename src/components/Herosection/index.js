@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Bio from '../../Data/constants';
 import Typewriter from 'typewriter-effect'; 
 import Pallavi from '../../image/Pallavi.jpg';
+import Pallavisahu from '../../image/Pallavi Sahu.jpeg'
 import HeroBgAnimation from '../../components/HeroBgAnimation';
 
 export const HeroContainer = styled.div`
@@ -101,7 +102,7 @@ export const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 400px;
-  max-height: 400px;
+  max-height: 420px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
 
@@ -233,7 +234,7 @@ function HeroSection (){
 
                     <HeroRightContainer id="Right">
 
-                        <Img src={Pallavi} alt="hero-image" />
+                        <Img src={Pallavisahu} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
